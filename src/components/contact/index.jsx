@@ -1,5 +1,5 @@
 import React, { useReducer, useRef, useState } from "react";
-import contact from "../../assets/contact.png";
+import contact from '../../assets/contact.png';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import MotionPath from "./motion_path";
 import { motion, useScroll, useTransform } from "framer-motion";
