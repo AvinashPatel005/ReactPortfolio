@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Godot",
+        "description": "An open-source game engine used for creating 2D and 3D games with GDScript, C#, and C++ support.",
+        "imageUrl": "assets/skills/godot.png",
+        "category": "Game Development",
+        "color": "rgb(120 171 232)"
+    },
+    {
+        "name": "HTML, CSS, JS",
+        "description": "The core technologies for building web pages: HTML for structure, CSS for styling, and JavaScript for interactivity.",
+        "imageUrl": "assets/skills/web.png",
+        "category": "Web Development",
+        "color": "rgb(255 192 165)"
+    },
+    {
+        "name": "Jetpack Compose",
+        "description": "A modern toolkit for building native Android UIs using Kotlin.",
+        "imageUrl": "assets/skills/jetpack.png",
+        "category": "Android Development",
+        "color": " rgb(151 253 196)"
+    },
+    {
+        "name": "React",
+        "description": "A JavaScript library for building user interfaces, mainly used for developing single-page applications.",
+        "imageUrl": "assets/skills/react.png",
+        "category": "Frontend Framework",
+        "color": "rgb(207 240 249)"
+    },
+    {
+        "name": "Java",
+        "description": "A high-level, class-based, object-oriented programming language used for web, mobile, and enterprise applications.",
+        "imageUrl": "assets/skills/java.png",
+        "category": "Programming Language",
+        "color": "rgb(254 177 81)"
+    },
+    {
+        "name": "C/C++",
+        "description": "General-purpose programming languages known for performance and low-level system programming.",
+        "imageUrl": "assets/skills/cpp.png",
+        "category": "Programming Language",
+        "color": "rgb(124 196 251)"
+    },
+    {
+        "name": "Node.js",
+        "description": "A JavaScript runtime built on Chrome's V8 engine, used for building scalable network applications.",
+        "imageUrl": "assets/skills/nodejs.png",
+        "category": "Backend Development",
+        "color": "rgb(161 255 152)"
+    },
+    {
+        "name": "Kotlin",
+        "description": "A modern, statically-typed programming language primarily used for Android development.",
+        "imageUrl": "assets/skills/kotlin.png",
+        "category": "Programming Language",
+        "color": "rgb(212 190 253)"
+    },
+    {
+        "name": "SQL",
+        "description": "A language used for managing and querying relational databases.",
+        "imageUrl": "assets/skills/sql.png",
+        "category": "Database Management",
+        "color": "rgb(255 186 95)"
+    },
+    {
+        "name": "Firebase",
+        "description": "A backend-as-a-service (BaaS) platform by Google, offering authentication, database, cloud functions, and more.",
+        "imageUrl": "assets/skills/firebase.png",
+        "category": "Cloud Services",
+        "color": "rgb(249 229 167)"
+    }
+]

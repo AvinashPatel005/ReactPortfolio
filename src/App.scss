@@ -1,0 +1,17 @@
+@use './utils/variables';
+
+.last{
+    background-color: green;
+    height: 100vh;
+}
+
+.scroll-progress-bar{
+    position: fixed;
+    top:0;
+    z-index: 9999;
+    right: 0;
+    width: 3px;
+    height: 100vh;
+    background-color: variables.$primary;
+    transform-origin: left top;
+}

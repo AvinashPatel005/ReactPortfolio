@@ -1,0 +1,21 @@
+.projects-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+            text-align: center;
+            position: sticky;
+            top: 90px;
+            font-size: 2rem;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap:10px
+    }
+    .pin-delay{
+        height: 100px;
+    }
+
+}

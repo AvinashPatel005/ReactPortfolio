@@ -1,0 +1,60 @@
+[
+    {
+        "name": "BrawlStatz",
+        "description": "A Brawl Stars statistics and analytics tool that provides players with match history, win rates, and performance insights. It integrates with game data to deliver meaningful statistics.",
+        "techStack": [
+            { "name": "Jetpack Compose", "imageUrl": "assets/skills/jetpack.png" },
+            { "name": "Kotlin", "imageUrl": "assets/skills/kotlin.png" },
+            { "name": "Firebase", "imageUrl": "assets/skills/firebase.png" }
+        ],
+        "features": [
+            "Player match history",
+            "Win rate and performance analytics",
+            "Brawler-specific statistics",
+            "Leaderboard tracking",
+            "User-friendly dashboard"
+        ],
+        "imageUrl": "assets/projects/bs.png",
+        "category": "Game Analytics",
+        "color": "#2196F3"
+    },
+    {
+        "name": "PetsForU",
+        "description": "A pet adoption and services platform built using the MERN stack. It allows users to adopt and purchase pets, products and subscriptions, access pet services, and read blog posts.",
+        "techStack": [
+            { "name": "MongoDB", "imageUrl": "assets/skills/mongo.png" },
+            { "name": "Express", "imageUrl": "assets/skills/express.png" },
+            { "name": "React", "imageUrl": "assets/skills/react.png" },
+            { "name": "Node.js", "imageUrl": "assets/skills/nodejs.png" }
+        ],
+        "features": [
+            "Pet adoption and purchasing",
+            "Pet services and subscriptions",
+            "Shop and consumer registration",
+            "Blog and employee pages",
+            "Geolocation for shops"
+        ],
+        "imageUrl": "assets/projects/pets.png",
+        "category": "Web Development",
+        "color": "orangered"
+    },
+    {
+        "name": "CodeWire",
+        "description": "A real-time online collaboration tool featuring a text editor, drawing whiteboard, and file sharing system. Users can switch between different modes using bottom-left tabs in a grid-based UI.",
+        "techStack": [
+            { "name": "React", "imageUrl": "assets/skills/react.png" },
+            { "name": "Firebase", "imageUrl": "assets/skills/firebase.png" },
+            { "name": "Node.js", "imageUrl": "assets/skills/nodejs.png" }
+        ],
+        "features": [
+            "Real-time collaborative text editor",
+            "Drawing whiteboard",
+            "File transfer system",
+            "Multi-user support",
+            "Intuitive tab-based navigation"
+        ],
+        "imageUrl": "assets/projects/cw.png",
+        "category": "Web Development",
+        "color": "#3e186b"
+    }
+]
