@@ -7,7 +7,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
 
     plugins: [VitePWA(
-      {
+     {
+      manifest:{
         "short_name": "Portfolio",
         "name": "Avinash' Portfolio",
         "icons": [
@@ -33,6 +34,7 @@ export default defineConfig({
         "background_color": "#000000"
       }
       
+     }
     ),react()], 
 
 });
