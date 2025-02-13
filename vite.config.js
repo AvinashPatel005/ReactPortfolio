@@ -11,6 +11,7 @@ export default defineConfig({
       manifest:{
         "short_name": "Portfolio",
         "name": "Avinash' Portfolio",
+        "description":"Check out my portfolio!",
         "icons": [
           {
             "src": "logo.png",
