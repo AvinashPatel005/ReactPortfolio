@@ -6,6 +6,10 @@
     position: sticky;
     top:0;
 
+    @media screen and (max-width:445px) {
+        height: 90vh;
+    }
+
     .project-card{
         width: 90vw;
         max-width: 1000px;

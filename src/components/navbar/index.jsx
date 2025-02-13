@@ -46,8 +46,8 @@ const Navbar = () => {
                     <motion.li variants={variants}><a href='#home'>Home</a></motion.li>
                     <motion.li variants={variants}><a href='#skill'>Skills</a></motion.li>
                     <motion.li variants={variants}><a href='#projects'>Projects</a></motion.li>
-                    <motion.li variants={variants}><a href='#'>About</a></motion.li>
-                    <motion.li variants={variants}><a href='#'>Contact</a></motion.li>
+                    <motion.li variants={variants}><a href='#about'>About</a></motion.li>
+                    <motion.li variants={variants}><a href='#contact'>Contact</a></motion.li>
                 </motion.ul>
             </div>
         </div>

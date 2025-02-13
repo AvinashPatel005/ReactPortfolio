@@ -24,7 +24,7 @@ const Project = () => {
               {projects.map((project, index) => (
                 <ProjectCard key={index} index={index} {...project} range={[index*0.33,1]} progress={cardResizeScroll} targetScale={1-(projects.length-index)*0.05} />
               ))}
-              <div className='pin-delay'></div>
+              {/* <div className='pin-delay'></div> */}
             </motion.ul>
         </section>
     )

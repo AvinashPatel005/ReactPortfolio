@@ -15,3 +15,23 @@
     background-color: variables.$primary;
     transform-origin: left top;
 }
+
+footer{
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer::before{
+    content: "";
+    height: 10vh;
+    width: 100%;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    backdrop-filter: blur(10px);
+    background-image: radial-gradient(variables.$primary 1px, transparent 1px);
+    background-size: 8px 8px;
+    mask-image: linear-gradient(transparent 20%, rgba(0, 0, 0, 0.536) 90%, black 100%);
+}
