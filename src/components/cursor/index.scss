@@ -2,11 +2,13 @@
 #ball{
     width: 40px;
     height : 40px;
-    background-color: variables.$primary;
+    background:radial-gradient(circle,transparent 0%,variables.$primary 100%);
+    border: 2px solid variables.$primary;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 50%;
     position: fixed;
     z-index:9999;
     opacity: 0.8;
+    
     pointer-events: none;
 }

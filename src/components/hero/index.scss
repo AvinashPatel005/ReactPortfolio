@@ -1,3 +1,4 @@
+@use '../../utils/variables';
 .hero{
     padding-top: 100px;
     height: 100svh;
@@ -21,6 +22,7 @@
         h1{
             font-size: 3.5rem;
             line-height: 3.5rem;
+            color: variables.$primary
         }
         p{
             font-size: 1.2rem;

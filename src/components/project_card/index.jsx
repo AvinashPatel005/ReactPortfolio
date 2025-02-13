@@ -1,24 +1,47 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import './index.scss'
-import { useTransform, motion } from 'framer-motion'
+import { useTransform, motion, useScroll, stagger } from 'framer-motion'
 
 const ProjectCard = ({ name, description, techStack, imageUrl, color, index, range, targetScale, progress }) => {
+    const cardRef = useRef(null)
+    const {scrollYProgress} = useScroll({
+        target:cardRef,
+        offset: ["start end","start center"],
+    })
+    const imageScale = useTransform(scrollYProgress, [0, 1],[1.5,1]);
     const scale = useTransform(progress, range, [1, targetScale])
+
+    const variants = {
+        hidden: {
+            opacity:0,
+            x:100
+        },
+        visible: {
+            opacity:1,
+            x:0,
+            transition:{
+                staggerChildren:0.1,
+                duration:0.4
+              }
+            
+        }
+    }
+
     return (
         <div className='project-card-wrapper' >
-            <motion.div className='project-card' style={{ top: 10 + index * 25, backgroundColor: color, scale }}>
-                    <img className='project-img' src={imageUrl} alt="image" />
+            <motion.div className='project-card' style={{ top: 10 + index * 25, scale }} ref={cardRef}>
+                    <motion.img className='project-img' src={imageUrl} alt="image" style={{scale:imageScale}} />
 
-                <div className='project-info'>
-                    <h3>{name}</h3>
-                    <p>{description}</p>
-                    <div className='tech-stack'>
+                <motion.div  className='project-info' style={{backgroundColor: color}}>
+                    <motion.h3 >{name}</motion.h3>
+                    <motion.p >{description}</motion.p>
+                    <motion.div variants={variants} initial = "hidden" whileInView="visible" className='tech-stack'>
                         {techStack.map(({ name, imageUrl }, index) => (
-                            <img className='tech' src={imageUrl} alt={name} width={50} height={50} key={index} />
+                            <motion.img variants={variants} className='tech' src={imageUrl} alt={name} width={50} height={50} key={index} />
                         ))}
 
-                    </div>
-                </div>
+                    </motion.div>
+                </motion.div>
             </motion.div>
         </div>
     )
