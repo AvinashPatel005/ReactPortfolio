@@ -46,11 +46,13 @@
             position: relative;
             z-index: -1;
             img{
-                width: 40%;
+                height: 30%;
                 border-radius: 50%;
                 border: 2px solid purple;
                 margin: 20px 0;
-
+                @media screen and (max-width: 768px) {
+                    height: 20%;
+                }
             }
             h1{
                 font-size: 2rem;
@@ -66,3 +68,4 @@
         }
     }
 }
+
