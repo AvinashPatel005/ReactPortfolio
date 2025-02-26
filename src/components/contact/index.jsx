@@ -85,7 +85,7 @@ const Contact = () => {
         </motion.div>
 
         <motion.div initial="hidden" whileInView="visible" className="right-contact">
-          <motion.img src="/assets/contacts.png" alt="contact" />
+          <motion.img src="assets/contacts.png" alt="contact" />
           <MotionPath />
           <motion.div>
             <motion.div className="contact-card">

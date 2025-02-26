@@ -35,7 +35,7 @@ const Navbar = () => {
                         type: "spring"
                     }}
                 >
-                    <img src="/assets/logo.png" width={60} alt="logo" />
+                    <img src="assets/logo.png" width={60} alt="logo" />
                 </motion.div>
                 <motion.ul className='nav-links'
                     initial="hidden"
