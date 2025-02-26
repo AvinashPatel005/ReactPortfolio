@@ -1,7 +1,5 @@
 import React, { useEffect, useRef } from 'react'
 import './index.scss'
-import heroImg from '../../assets/hero_image.png'
-import scroll from '../../assets/bottom.png'
 import { motion, useScroll, useTransform } from 'motion/react'
 const Hero = () => {
     const ref = useRef(null)
@@ -27,13 +25,13 @@ const Hero = () => {
     initial="hidden"
     animate="visible"
     >
-        <motion.img className='scroll-img' src={scroll} width="100" height="100" alt="scroll"  variants={variants} />
+        <motion.img className='scroll-img' src="/assets/bottom.png" width="100" height="100" alt="scroll"  variants={variants} />
         <motion.div className='hero-info' style={{y:heroInfoParallax}}  variants={variants} >
             <motion.p variants={variants} >Hello, I'm</motion.p>
             <motion.h1 variants={variants}>AVINASH PATEL</motion.h1>
             <motion.p variants={variants}>Full Stack Developer</motion.p>
         </motion.div>
-        <motion.img className='hero-img' src={heroImg} alt="heroImg"  variants={variants} />
+        <motion.img className='hero-img' src="/assets/hero_image.png" alt="heroImg"  variants={variants} />
 
         
         

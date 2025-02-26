@@ -1,6 +1,5 @@
 import React from 'react'
 import './index.scss'
-import logo from '../../assets/logo.png'
 import { motion } from 'motion/react'
 const Navbar = () => {
     const variants = {
@@ -36,7 +35,7 @@ const Navbar = () => {
                         type: "spring"
                     }}
                 >
-                    <img src={logo} width={60} alt="logo" />
+                    <img src="/assets/logo.png" width={60} alt="logo" />
                 </motion.div>
                 <motion.ul className='nav-links'
                     initial="hidden"

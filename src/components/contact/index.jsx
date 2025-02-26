@@ -1,5 +1,4 @@
 import React, { useReducer, useRef, useState } from "react";
-import contact from '../../assets/contacts.png';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import MotionPath from "./motion_path";
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -86,7 +85,7 @@ const Contact = () => {
         </motion.div>
 
         <motion.div initial="hidden" whileInView="visible" className="right-contact">
-          <motion.img src={contact} alt="contact" />
+          <motion.img src="/assets/contacts.png" alt="contact" />
           <MotionPath />
           <motion.div>
             <motion.div className="contact-card">
