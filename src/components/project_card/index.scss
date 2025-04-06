@@ -5,6 +5,7 @@
     justify-content: center;
     position: sticky;
     top:0;
+    pointer-events: none;
 
     @media screen and (max-width:445px) {
         height: 90vh;
@@ -23,8 +24,7 @@
         .project-img-wrapper{
             overflow: hidden;
             max-height: 380px;
-            position: relative;
-            
+            position: relative;            
         }
         .project-img{
             width: 100%;
@@ -56,10 +56,18 @@
             }
         }
         .tech-stack{
-            text-align: end;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transform-origin: right;
         }
         .tech{
             filter: drop-shadow(0 0 3px rgba(82, 4, 76, 0.868));
+        }
+        .project-url{
+            text-decoration: underline;
+            pointer-events: all;
+            font-size: 2rem;
         }
     }
 }

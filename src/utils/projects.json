@@ -36,6 +36,7 @@
         ],
         "imageUrl": "assets/projects/pets.png",
         "category": "Web Development",
+        "url":"https://petsforu.web.app",
         "color": "#e46b6b"
     },
     {
@@ -53,6 +54,7 @@
             "Multi-user support",
             "Intuitive tab-based navigation"
         ],
+        "url":"https://codewire.vercel.app",
         "imageUrl": "assets/projects/cw.png",
         "category": "Web Development",
         "color": "#3e186b"
